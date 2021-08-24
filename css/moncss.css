@@ -1,0 +1,147 @@
+html {
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(59, 57, 53);
+    height: 100%;
+}
+
+.principale {
+    width: 100%;
+    max-width: 100%;
+}
+
+.container_calculette {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    border: 3px solid rgb(231, 217, 217);
+    border-radius: 15%;
+    width: 18%;
+    max-width: 18%;
+    min-width: 18%;
+    height: 27em;
+    min-height: 100%;
+    margin: auto;
+    margin-top: 10em;
+    list-style: none;
+}
+
+h3 {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    color: white;
+    display: inline-block;
+    width: 8em;
+    height: 1em;
+    margin-left: 4.8em;
+}
+
+.div-resultats {
+    position: absolute;
+    /* display: inline; */
+    margin-top: 3em;
+    width: 16%;
+    height: 1.2em;
+    border: 3px solid rgb(231, 217, 217);
+    border-radius: 15px;
+    background-color: antiquewhite;
+}
+
+.div-calculs {
+    position: absolute;
+    /* display: inline; */
+    margin-top: 5.5em;
+    width: 16%;
+    height: 1.2em;
+    border: 3px solid rgb(231, 217, 217);
+    border-radius: 15px;
+    background-color: antiquewhite;
+}
+
+.resultats {
+    width: max-content;
+    border: 3px solid rgb(231, 217, 217);
+    position: inherit;
+    margin-top: -0.2em;
+    margin-left: 1em;
+    min-height: max-content;
+    border-radius: 5px;
+}
+
+.calculs {
+    width: max-content;
+    position: inherit;
+    margin-top: 0.1em;
+    margin-left: 1em;
+    color: red;
+}
+
+.btn {
+    border: 2px solid gold;
+    background: white;
+    width: 32px;
+    height: 32px;
+    transition: 0.3s;
+    color: black;
+    margin: 0.4em;
+    border-radius: 50%;
+    line-height: 28px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background: black;
+    color: white;
+}
+
+.rangs {
+    position: absolute;
+    display: inline-block;
+    margin-top: 7.5em;
+    width: 16%;
+    min-width: 16%;
+    height: 14.2em;
+    border: 3px solid rgb(231, 217, 217);
+    border-radius: 15px;
+    background-color: rgb(236, 180, 105);
+}
+
+.rang0,
+.rang1,
+.rang2,
+.rang3,
+.rang4 {
+    position: absolute;
+    height: min-content;
+    margin-top: 0.5em;
+    /* position: absolute; */
+}
+
+.rang0 {
+    margin-left: 0.8em;
+}
+
+.rang1 {
+    margin-left: 4.5em;
+}
+
+.rang2 {
+    margin-left: 8.2em;
+}
+
+.rang3 {
+    margin-left: 11.9em;
+}
+
+.precision {
+    display: inline-block;
+    margin-top: 15em;
+    margin-left: -9em;
+    color: wheat;
+}

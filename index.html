@@ -1,0 +1,72 @@
+<!-- Calculatrice :Auteur Pascal Haas CDA 2021
+20 Aout 2021
+ -->
+<!DOCTYPE html>
+<html lang="FR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/moncss.css" />
+    <title>Ma Calculette</title>
+  </head>
+
+  <body>
+    <section class="principale">
+      <div class="container_calculette">
+        <h3>Canon TX1210</h3>
+        <div class="div-resultats">
+          <h4 class="resultats" id="resultats"></h4>
+        </div>
+        <div class="div-calculs">
+          <h4 class="calculs" id="calculs"></h4>
+        </div>
+        <div class="rangs">
+          <div class="rang0">
+            <div class="btn" id="btnc">C</div>
+            <div class="btn" id="btn7">7</div>
+            <div class="btn" id="btn4">4</div>
+            <div class="btn" id="btn1">1</div>
+            <div class="btn" id="btn+-">+/-</div>
+          </div>
+          <!--      -->
+          <div class="rang1">
+            <div class="btn" id="btnce">CE</div>
+            <div class="btn" id="btn8">8</div>
+            <div class="btn" id="btn5">5</div>
+            <div class="btn" id="btn2">2</div>
+            <div class="btn" id="btn0">0</div>
+          </div>
+          <div class="rang2">
+            <div class="btn" id="btn()">()</div>
+            <div class="btn" id="btn9">9</div>
+            <div class="btn" id="btn6">6</div>
+            <div class="btn" id="btn3">3</div>
+            <div class="btn" id="btn.">.</div>
+          </div>
+          <div class="rang3">
+            <div class="btn" id="btndiv">/</div>
+            <div class="btn" id="btnm">*</div>
+            <div class="btn" id="btns">-</div>
+            <div class="btn" id="btnadd">+</div>
+            <div class="btn" id="btntot">=</div>
+          </div>
+        </div>
+        <!--fin de la div rangs-->
+
+        <div>
+          <h2 class="precision">Precision</h2>
+          <input
+            type="number"
+            class="combo"
+            id="quantite"
+            value="2"
+            min="1"
+            max="6"
+          />
+        </div>
+      </div>
+    </section>
+    <script src="./js/monjs.js"></script>
+  </body>
+</html>
